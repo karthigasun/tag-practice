@@ -1,0 +1,117 @@
+.color{
+    font-size: 25px;
+    color: aqua;
+}
+.desc p{
+    color: blue;
+    font-size: 25px;
+}
+.child > p{
+    color: red;
+    font-size: 20px;
+}
+.sibling + p{
+    color: blueviolet;
+}
+.hover a:hover{
+    color: aqua;
+}
+.active a:active{
+    color:black
+}
+.focus a:focus{
+    color: greenyellow;
+}
+.visited a:visited{
+    color: cadetblue;
+}
+.para p::first-line{
+    /* font-size: 20px; */
+    color: red;
+}
+.attr a[target="_blank"] {
+    background-color: aqua;
+}
+
+.transition{
+    height: 200px;
+    width: 200px;
+    background: red;
+    transition: 3s;
+}
+.transition:hover{
+    width: 500px;
+}
+.transition-delay{
+    height: 200px;
+    width: 200px;
+    background: red;
+    transition-delay: 3s;
+    transition-duration: 5s;
+    transition-property:width;
+}
+.transition-delay:hover{
+    width: 500px;
+}
+.linear{
+    width: 200px;
+    height: 50px;
+    background-color: red;
+    transition: width 2s;
+    transition-timing-function: linear;
+}
+.linear:hover{
+    width: 500px;
+}
+.ease{
+    width: 200px;
+    height: 50px;
+    background-color: red;
+    transition: width 2s;
+    transition-timing-function: linear;
+}
+.ease:hover{
+    width: 500px;
+}
+
+.ease-in{
+    width: 200px;
+    height: 50px;
+    background-color: red;
+    transition: width 2s;
+    transition-timing-function: linear;
+}
+.ease-in:hover{
+    width: 500px;
+}
+.ease-out{
+    width: 200px;
+    height: 50px;
+    background-color: red;
+    transition: width 2s;
+    transition-timing-function: linear;
+}
+.ease-out:hover{
+    width: 500px;
+}
+
+.ease-in-out{
+    width: 200px;
+    height: 50px;
+    background-color: red;
+    transition: width 2s;
+    transition-timing-function: linear;
+}
+.ease-in-out:hover{
+    width: 500px;
+}
+.cubic{
+    width: 200px;
+    height: 50px;
+    background-color: red;
+    transition: width 2s;
+    transition-timing-function: cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+.cubic:hover{
+    width: 500px;
+}
